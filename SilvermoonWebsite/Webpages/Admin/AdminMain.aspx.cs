@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SilvermoonWebsite
+namespace SilvermoonWebsite.Admin
 {
-    public partial class _Default : Page
+    public partial class AdminMain : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Server.Transfer(@"~/Webpages/Home.aspx");
+
         }
     }
 }

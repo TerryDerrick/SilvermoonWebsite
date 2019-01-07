@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace SilvermoonWebsite
 {
-    public partial class _Default : Page
+    public partial class Home : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Server.Transfer(@"~/Webpages/Home.aspx");
+
         }
     }
 }
