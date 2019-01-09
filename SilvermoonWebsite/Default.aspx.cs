@@ -11,7 +11,7 @@ namespace SilvermoonWebsite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Server.Transfer(@"~/Webpages/Home.aspx");
+            Server.Transfer(@"~/Home.aspx");
         }
     }
 }

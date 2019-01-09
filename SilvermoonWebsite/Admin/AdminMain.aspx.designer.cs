@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SilvermoonWebsite {
+namespace SilvermoonWebsite.Admin {
     
     
     public partial class AdminMain {

@@ -11,7 +11,7 @@ namespace SilvermoonWebsite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Title = "123 About page";
         }
     }
 }

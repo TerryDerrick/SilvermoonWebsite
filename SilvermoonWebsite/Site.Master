@@ -49,10 +49,13 @@
                     <a class="navbar-brand" runat="server" href="~/">Main</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                   <ul class="nav navbar-nav">
                         <!--<li><a runat="server" href="~/">Home</a></li>-->
-                        <li><a runat="server" href="~/Webpages/About">About</a></li>
-                        <li><a runat="server" href="~/Webpages/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/About.aspx">About</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/Admin/AdminMain.aspx">Admin</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +65,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Starwindonline</p>
             </footer>
         </div>
 
